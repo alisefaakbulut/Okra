@@ -100,6 +100,18 @@
     <Compile Include="FrmProductColor.Designer.cs">
       <DependentUpon>FrmProductColor.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmProforma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProforma.Designer.cs">
+      <DependentUpon>FrmProforma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +140,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmProductColor.resx">
       <DependentUpon>FrmProductColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProforma.resx">
+      <DependentUpon>FrmProforma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>

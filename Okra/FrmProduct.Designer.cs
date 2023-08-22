@@ -32,6 +32,7 @@
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.btnClear = new DevExpress.XtraEditors.SimpleButton();
             this.btnUpdateProduct = new DevExpress.XtraEditors.SimpleButton();
             this.btnDeleteProduct = new DevExpress.XtraEditors.SimpleButton();
             this.btnAddProduct = new DevExpress.XtraEditors.SimpleButton();
@@ -41,7 +42,6 @@
             this.txtName = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.btnClear = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
@@ -84,6 +84,18 @@
             this.groupControl1.Size = new System.Drawing.Size(270, 650);
             this.groupControl1.TabIndex = 1;
             this.groupControl1.Text = "İŞLEMLER";
+            // 
+            // btnClear
+            // 
+            this.btnClear.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.btnClear.Appearance.Options.UseFont = true;
+            this.btnClear.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnClear.ImageOptions.Image")));
+            this.btnClear.Location = new System.Drawing.Point(79, 251);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(119, 35);
+            this.btnClear.TabIndex = 7;
+            this.btnClear.Text = "TEMİZLE";
+            this.btnClear.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // btnUpdateProduct
             // 
@@ -179,18 +191,6 @@
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "ID:";
             this.labelControl1.Click += new System.EventHandler(this.labelControl1_Click);
-            // 
-            // btnClear
-            // 
-            this.btnClear.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.btnClear.Appearance.Options.UseFont = true;
-            this.btnClear.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.btnClear.Location = new System.Drawing.Point(79, 251);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(119, 35);
-            this.btnClear.TabIndex = 7;
-            this.btnClear.Text = "TEMİZLE";
-            this.btnClear.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // FrmProduct
             // 

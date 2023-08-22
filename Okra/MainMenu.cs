@@ -19,6 +19,7 @@ namespace Okra
         FrmFabric frmFabric;
         FrmFabricColor frmFabricColor;
         FrmCategory frmCategory;
+        FrmProforma frmProforma;
         public MainMenu()
         {
             InitializeComponent();
@@ -42,7 +43,7 @@ namespace Okra
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
-
+             
         }
         
         private void btnProduct_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -104,6 +105,16 @@ namespace Okra
                 frmCategory = new FrmCategory();
                 frmCategory.MdiParent = this;
                 frmCategory.Show();
+            }
+        }
+
+        private void btnProforma_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frmProforma == null)
+            {
+                frmProforma = new FrmProforma();
+                frmProforma.MdiParent = this;
+                frmProforma.Show();
             }
         }
     }
